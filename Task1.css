@@ -1,0 +1,91 @@
+body {
+  background-color: gold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  color: #333;
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.class1 {
+  justify-content: space-evenly;
+  align-items: left;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.texts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 1450px;
+  gap: 80px;
+}
+
+#Bananas {
+  background-color: rgb(238, 224, 25);
+}
+
+#Banani-and-Banoni {
+  background-color: rgb(216, 237, 26);
+}
+#Monkey {
+  background-color: rgb(223, 240, 75);
+}
+#Bananhot-fashion-brand {
+  background-color: rgb(234, 244, 141);
+}
+
+.class1 img {
+  height: 180px;
+  width: 200px;
+}
+
+.Cards {
+  display: flex;
+}
+
+.Card {
+  width: 200px;
+  height: 320px;
+  background: rgb(195, 249, 1);
+  margin: 5px;
+  border: 1px solid darkgoldenrod;
+}
+
+.Card img {
+  height: 180px;
+  width: 100%;
+}
+
+.Card p {
+  font-size: 12px;
+}
+
+footer {
+  background-image: url("/images/background.jpg");
+  background: size 2000000px;
+  padding: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid darkgoldenrod;
+  text-align: center;
+}
+footer nav ul {
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0 10px;
+}
+
+footer li a {
+  background-color: rgb(34, 255, 0);
+  border-radius: 8px;
+  padding: 4px;
+}
