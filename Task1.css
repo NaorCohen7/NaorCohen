@@ -67,7 +67,7 @@ h1 {
 }
 
 footer {
-  background-image: url("./images/background.jpg");
+  background-image: url(./images/background.jpg);
   background: size 2000000px;
   padding: 20px 0;
   margin-top: 20px;
